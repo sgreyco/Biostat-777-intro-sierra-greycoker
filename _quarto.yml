@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: Sierrra Grey-Coker
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: analysis.qmd
+        text: Exploratory Analysis
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
